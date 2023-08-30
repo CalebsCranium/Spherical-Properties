@@ -1,0 +1,15 @@
+import math
+
+radius = float(input("Enter the radius of the sphere: "))
+
+# Compute the results
+diameter = radius * 2
+circumference = diameter * math.pi
+surfaceArea = 4 * math.pi * radius * radius
+volume = (4/3.0) * math.pi * radius * radius * radius
+
+# Print the results
+print("Diameter:", diameter)
+print("Circumference:", circumference)
+print("Surface Area:", surfaceArea)
+print("Volume:", volume)
